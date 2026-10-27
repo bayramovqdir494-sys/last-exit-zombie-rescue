@@ -19,6 +19,7 @@
 - No AI-generated textures or 2D art are used in the game.
 
 ## Environment kit and ground detail (pass 2)
+- assets/weapons.glb (pistol, SMG, shotgun, rifle, launcher, flamer, minigun) was hand-modelled procedurally in Blender (blender/weapons.py). Not AI-generated.
 - assets/env.glb has 48 environment props: barricades, sandbags, fences, dumpsters, street lights, cones, debris, trash, rooftop AC units and water tanks, fire escapes, awnings, trees, rocks, bushes, pallets, dock cleats and others. They were hand-modelled procedurally in Blender (blender/env_kit.py). They are not AI-generated and contain no third-party assets.
 - Ground decals (cracks, oil, blood, manholes, drains, litter, leaves, skids, puddles, potholes, sand, scorch, road arrows, grass and gravel) are drawn procedurally on a canvas at runtime (src/dress.js). No image files are used.
 
